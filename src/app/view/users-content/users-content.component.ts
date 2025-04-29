@@ -26,7 +26,6 @@ import { UserApiRepository } from '../../infrastructure/repositories/user-api.re
     MatSelectModule,
     ReactiveFormsModule,
     MatGridListModule,
-    NgFor,
     UserCardComponent,
     PaginationComponent,
   ],
