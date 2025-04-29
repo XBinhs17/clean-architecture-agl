@@ -448,5 +448,545 @@
     "earnings": "$7,800",
     "tasks": 28,
     "sales": "$116,200"
+  },
+  {
+    "id": 51,
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "name": "John Smith",
+    "work": "Software Engineer at TechCorp",
+    "earnings": "$9,500",
+    "tasks": 35,
+    "sales": "$200,000"
+  },
+  {
+    "id": 52,
+    "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+    "name": "Emma Watson",
+    "work": "Project Manager at BuildPro",
+    "earnings": "$8,000",
+    "tasks": 30,
+    "sales": "$150,000"
+  },
+  {
+    "id": 53,
+    "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+    "name": "Daniel Lee",
+    "work": "Marketing Director at GlobalBrands",
+    "earnings": "$10,200",
+    "tasks": 40,
+    "sales": "$220,000"
+  },
+  {
+    "id": 54,
+    "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+    "name": "Sophia Green",
+    "work": "HR Specialist at PeopleWorks",
+    "earnings": "$7,000",
+    "tasks": 28,
+    "sales": "$110,000"
+  },
+  {
+    "id": 55,
+    "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+    "name": "James Bond",
+    "work": "Product Manager at InnovateX",
+    "earnings": "$9,800",
+    "tasks": 50,
+    "sales": "$300,000"
+  },
+  {
+    "id": 56,
+    "avatar": "https://randomuser.me/api/portraits/women/6.jpg",
+    "name": "Isabella Davis",
+    "work": "Creative Director at ArtWorks",
+    "earnings": "$8,500",
+    "tasks": 34,
+    "sales": "$180,000"
+  },
+  {
+    "id": 57,
+    "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+    "name": "William Harris",
+    "work": "Business Analyst at FinTech Solutions",
+    "earnings": "$11,000",
+    "tasks": 45,
+    "sales": "$250,000"
+  },
+  {
+    "id": 58,
+    "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
+    "name": "Mia Clark",
+    "work": "UX/UI Designer at WebCreatives",
+    "earnings": "$7,400",
+    "tasks": 29,
+    "sales": "$130,000"
+  },
+  {
+    "id": 59,
+    "avatar": "https://randomuser.me/api/portraits/men/9.jpg",
+    "name": "Lucas Allen",
+    "work": "Software Developer at DevSolutions",
+    "earnings": "$8,900",
+    "tasks": 32,
+    "sales": "$175,000"
+  },
+  {
+    "id": 60,
+    "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
+    "name": "Olivia Martinez",
+    "work": "Data Scientist at CloudTech",
+    "earnings": "$9,200",
+    "tasks": 38,
+    "sales": "$190,000"
+  },
+  {
+    "id": 61,
+    "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+    "name": "Ethan Scott",
+    "work": "Account Manager at SmartFinance",
+    "earnings": "$8,300",
+    "tasks": 40,
+    "sales": "$170,000"
+  },
+  {
+    "id": 62,
+    "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
+    "name": "Charlotte King",
+    "work": "Customer Support Specialist at ShopEase",
+    "earnings": "$7,600",
+    "tasks": 31,
+    "sales": "$160,000"
+  },
+  {
+    "id": 63,
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+    "name": "Aiden White",
+    "work": "Web Developer at DigitalWave",
+    "earnings": "$7,900",
+    "tasks": 28,
+    "sales": "$140,000"
+  },
+  {
+    "id": 64,
+    "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
+    "name": "Amelia Moore",
+    "work": "Social Media Manager at BuzzUp",
+    "earnings": "$6,800",
+    "tasks": 27,
+    "sales": "$120,000"
+  },
+  {
+    "id": 65,
+    "avatar": "https://randomuser.me/api/portraits/men/15.jpg",
+    "name": "Michael Lee",
+    "work": "SEO Specialist at RankUp",
+    "earnings": "$8,100",
+    "tasks": 33,
+    "sales": "$155,000"
+  },
+  {
+    "id": 66,
+    "avatar": "https://randomuser.me/api/portraits/women/16.jpg",
+    "name": "Lily Evans",
+    "work": "Event Coordinator at PartyPerfect",
+    "earnings": "$7,300",
+    "tasks": 30,
+    "sales": "$140,000"
+  },
+  {
+    "id": 67,
+    "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+    "name": "Samuel Young",
+    "work": "Sales Manager at BestBuy",
+    "earnings": "$9,100",
+    "tasks": 36,
+    "sales": "$210,000"
+  },
+  {
+    "id": 68,
+    "avatar": "https://randomuser.me/api/portraits/women/18.jpg",
+    "name": "Grace Hill",
+    "work": "Product Designer at NextGen",
+    "earnings": "$7,500",
+    "tasks": 32,
+    "sales": "$145,000"
+  },
+  {
+    "id": 69,
+    "avatar": "https://randomuser.me/api/portraits/men/19.jpg",
+    "name": "Jack Adams",
+    "work": "Business Consultant at InsightCorp",
+    "earnings": "$9,000",
+    "tasks": 42,
+    "sales": "$230,000"
+  },
+  {
+    "id": 70,
+    "avatar": "https://randomuser.me/api/portraits/women/20.jpg",
+    "name": "Ella Taylor",
+    "work": "Operations Manager at QuickFlow",
+    "earnings": "$8,600",
+    "tasks": 34,
+    "sales": "$180,000"
+  },
+  {
+    "id": 71,
+    "avatar": "https://randomuser.me/api/portraits/men/21.jpg",
+    "name": "David Brown",
+    "work": "Finance Analyst at WealthCare",
+    "earnings": "$8,700",
+    "tasks": 30,
+    "sales": "$175,000"
+  },
+  {
+    "id": 72,
+    "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
+    "name": "Chloe Johnson",
+    "work": "Accountant at ProFinance",
+    "earnings": "$7,200",
+    "tasks": 28,
+    "sales": "$130,000"
+  },
+  {
+    "id": 73,
+    "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
+    "name": "Benjamin Robinson",
+    "work": "Project Coordinator at BuildX",
+    "earnings": "$9,400",
+    "tasks": 40,
+    "sales": "$200,000"
+  },
+  {
+    "id": 74,
+    "avatar": "https://randomuser.me/api/portraits/women/24.jpg",
+    "name": "Natalie Perez",
+    "work": "Graphic Designer at PixelPerfect",
+    "earnings": "$8,200",
+    "tasks": 36,
+    "sales": "$180,000"
+  },
+  {
+    "id": 75,
+    "avatar": "https://randomuser.me/api/portraits/men/25.jpg",
+    "name": "Henry Carter",
+    "work": "Business Development Manager at NexaTech",
+    "earnings": "$10,500",
+    "tasks": 50,
+    "sales": "$350,000"
+  },
+  {
+    "id": 76,
+    "avatar": "https://randomuser.me/api/portraits/women/26.jpg",
+    "name": "Zara Mitchell",
+    "work": "Content Writer at WordCraft",
+    "earnings": "$6,900",
+    "tasks": 29,
+    "sales": "$120,000"
+  },
+  {
+    "id": 77,
+    "avatar": "https://randomuser.me/api/portraits/men/27.jpg",
+    "name": "Oscar Walker",
+    "work": "Chief Executive Officer at BusinessElite",
+    "earnings": "$12,000",
+    "tasks": 55,
+    "sales": "$400,000"
+  },
+  {
+    "id": 78,
+    "avatar": "https://randomuser.me/api/portraits/women/28.jpg",
+    "name": "Harper Miller",
+    "work": "Recruitment Specialist at WorkForce",
+    "earnings": "$7,700",
+    "tasks": 30,
+    "sales": "$160,000"
+  },
+  {
+    "id": 79,
+    "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+    "name": "Jacob Moore",
+    "work": "Marketing Executive at BrandSpark",
+    "earnings": "$8,000",
+    "tasks": 32,
+    "sales": "$175,000"
+  },
+  {
+    "id": 80,
+    "avatar": "https://randomuser.me/api/portraits/women/30.jpg",
+    "name": "Luna Wilson",
+    "work": "Business Strategist at IdeaHub",
+    "earnings": "$8,900",
+    "tasks": 35,
+    "sales": "$210,000"
+  },
+  {
+    "id": 81,
+    "avatar": "https://randomuser.me/api/portraits/men/31.jpg",
+    "name": "Jack Miller",
+    "work": "Chief Marketing Officer at AdVenture",
+    "earnings": "$9,500",
+    "tasks": 40,
+    "sales": "$250,000"
+  },
+  {
+    "id": 82,
+    "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+    "name": "Amelia Smith",
+    "work": "Software Developer at CodeLab",
+    "earnings": "$8,200",
+    "tasks": 30,
+    "sales": "$170,000"
+  },
+  {
+    "id": 83,
+    "avatar": "https://randomuser.me/api/portraits/men/33.jpg",
+    "name": "Oliver Davis",
+    "work": "Sales Executive at GlobalSales",
+    "earnings": "$8,900",
+    "tasks": 35,
+    "sales": "$180,000"
+  },
+  {
+    "id": 84,
+    "avatar": "https://randomuser.me/api/portraits/women/34.jpg",
+    "name": "Charlotte Lewis",
+    "work": "Operations Manager at AgileOps",
+    "earnings": "$7,700",
+    "tasks": 32,
+    "sales": "$160,000"
+  },
+  {
+    "id": 85,
+    "avatar": "https://randomuser.me/api/portraits/men/35.jpg",
+    "name": "Ethan Wilson",
+    "work": "HR Manager at PeopleFirst",
+    "earnings": "$8,100",
+    "tasks": 28,
+    "sales": "$145,000"
+  },
+  {
+    "id": 86,
+    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+    "name": "Sophie Clark",
+    "work": "Content Creator at CreativeMinds",
+    "earnings": "$7,400",
+    "tasks": 27,
+    "sales": "$130,000"
+  },
+  {
+    "id": 87,
+    "avatar": "https://randomuser.me/api/portraits/men/37.jpg",
+    "name": "Lucas Harris",
+    "work": "Product Developer at TechFusion",
+    "earnings": "$8,700",
+    "tasks": 30,
+    "sales": "$155,000"
+  },
+  {
+    "id": 88,
+    "avatar": "https://randomuser.me/api/portraits/women/38.jpg",
+    "name": "Mia Anderson",
+    "work": "UI/UX Designer at InnovateDesign",
+    "earnings": "$7,800",
+    "tasks": 34,
+    "sales": "$145,000"
+  },
+  {
+    "id": 89,
+    "avatar": "https://randomuser.me/api/portraits/men/39.jpg",
+    "name": "Daniel Martin",
+    "work": "Business Analyst at SmartBiz",
+    "earnings": "$9,200",
+    "tasks": 38,
+    "sales": "$190,000"
+  },
+  {
+    "id": 90,
+    "avatar": "https://randomuser.me/api/portraits/women/40.jpg",
+    "name": "Isabella Walker",
+    "work": "Sales Specialist at EasyBuy",
+    "earnings": "$8,300",
+    "tasks": 31,
+    "sales": "$170,000"
+  },
+  {
+    "id": 91,
+    "avatar": "https://randomuser.me/api/portraits/men/41.jpg",
+    "name": "Liam Thompson",
+    "work": "Software Engineer at CodeMaster",
+    "earnings": "$9,800",
+    "tasks": 45,
+    "sales": "$220,000"
+  },
+  {
+    "id": 92,
+    "avatar": "https://randomuser.me/api/portraits/women/42.jpg",
+    "name": "Ella Martinez",
+    "work": "Project Manager at BuildForce",
+    "earnings": "$7,600",
+    "tasks": 29,
+    "sales": "$140,000"
+  },
+  {
+    "id": 93,
+    "avatar": "https://randomuser.me/api/portraits/men/43.jpg",
+    "name": "Michael Allen",
+    "work": "SEO Expert at RankWorks",
+    "earnings": "$8,400",
+    "tasks": 33,
+    "sales": "$160,000"
+  },
+  {
+    "id": 94,
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "name": "Lily Johnson",
+    "work": "Business Consultant at BizGrowth",
+    "earnings": "$9,100",
+    "tasks": 40,
+    "sales": "$200,000"
+  },
+  {
+    "id": 95,
+    "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+    "name": "Sebastian Green",
+    "work": "Chief Technology Officer at TechVision",
+    "earnings": "$10,500",
+    "tasks": 50,
+    "sales": "$300,000"
+  },
+  {
+    "id": 96,
+    "avatar": "https://randomuser.me/api/portraits/women/46.jpg",
+    "name": "Grace Lee",
+    "work": "HR Director at TeamWorks",
+    "earnings": "$8,500",
+    "tasks": 36,
+    "sales": "$180,000"
+  },
+  {
+    "id": 97,
+    "avatar": "https://randomuser.me/api/portraits/men/47.jpg",
+    "name": "William White",
+    "work": "Marketing Manager at BrandBoost",
+    "earnings": "$8,600",
+    "tasks": 32,
+    "sales": "$160,000"
+  },
+  {
+    "id": 98,
+    "avatar": "https://randomuser.me/api/portraits/women/48.jpg",
+    "name": "Sophia Taylor",
+    "work": "Social Media Strategist at MediaPro",
+    "earnings": "$7,200",
+    "tasks": 28,
+    "sales": "$140,000"
+  },
+  {
+    "id": 99,
+    "avatar": "https://randomuser.me/api/portraits/men/49.jpg",
+    "name": "James Robinson",
+    "work": "Business Development at SalesForce",
+    "earnings": "$9,300",
+    "tasks": 41,
+    "sales": "$210,000"
+  },
+  {
+    "id": 100,
+    "avatar": "https://randomuser.me/api/portraits/women/50.jpg",
+    "name": "Chloe Martinez",
+    "work": "Customer Support at HelpDesk",
+    "earnings": "$7,900",
+    "tasks": 30,
+    "sales": "$150,000"
+  },
+  {
+    "id": 101,
+    "avatar": "https://randomuser.me/api/portraits/men/51.jpg",
+    "name": "Daniel Harris",
+    "work": "Full-stack Developer at CodeWorks",
+    "earnings": "$8,500",
+    "tasks": 33,
+    "sales": "$170,000"
+  },
+  {
+    "id": 102,
+    "avatar": "https://randomuser.me/api/portraits/women/52.jpg",
+    "name": "Zoe Scott",
+    "work": "Content Strategist at WebCreators",
+    "earnings": "$8,000",
+    "tasks": 32,
+    "sales": "$160,000"
+  },
+  {
+    "id": 103,
+    "avatar": "https://randomuser.me/api/portraits/men/53.jpg",
+    "name": "Jacob Clark",
+    "work": "Product Manager at NextTech",
+    "earnings": "$9,200",
+    "tasks": 39,
+    "sales": "$210,000"
+  },
+  {
+    "id": 104,
+    "avatar": "https://randomuser.me/api/portraits/women/54.jpg",
+    "name": "Mia Green",
+    "work": "Account Executive at SalesExperts",
+    "earnings": "$7,500",
+    "tasks": 31,
+    "sales": "$145,000"
+  },
+  {
+    "id": 105,
+    "avatar": "https://randomuser.me/api/portraits/men/55.jpg",
+    "name": "James Young",
+    "work": "Chief Sales Officer at SalesPower",
+    "earnings": "$10,000",
+    "tasks": 48,
+    "sales": "$280,000"
+  },
+  {
+    "id": 106,
+    "avatar": "https://randomuser.me/api/portraits/women/56.jpg",
+    "name": "Olivia Roberts",
+    "work": "Customer Success Manager at EasyHelp",
+    "earnings": "$8,100",
+    "tasks": 34,
+    "sales": "$160,000"
+  },
+  {
+    "id": 107,
+    "avatar": "https://randomuser.me/api/portraits/men/57.jpg",
+    "name": "Elijah King",
+    "work": "Software Engineer at CloudWorks",
+    "earnings": "$9,400",
+    "tasks": 43,
+    "sales": "$200,000"
+  },
+  {
+    "id": 108,
+    "avatar": "https://randomuser.me/api/portraits/women/58.jpg",
+    "name": "Emily Walker",
+    "work": "Marketing Coordinator at CreativeCampaigns",
+    "earnings": "$7,600",
+    "tasks": 30,
+    "sales": "$140,000"
+  },
+  {
+    "id": 109,
+    "avatar": "https://randomuser.me/api/portraits/men/59.jpg",
+    "name": "Alexander Mitchell",
+    "work": "Business Consultant at ProConsult",
+    "earnings": "$8,200",
+    "tasks": 35,
+    "sales": "$180,000"
+  },
+  {
+    "id": 110,
+    "avatar": "https://randomuser.me/api/portraits/women/60.jpg",
+    "name": "Chloe Walker",
+    "work": "Sales Director at MegaCorp",
+    "earnings": "$8,700",
+    "tasks": 37,
+    "sales": "$200,000"
   }
 ]

@@ -1,0 +1,38 @@
+<div class="wrapper-users">
+  <div class="users-header">
+    <div class="header-left">
+      <p>Users ({{ users().length }})</p>
+      <form class="form-search">
+        <input placeholder="Search" />
+        <mat-icon>search</mat-icon>
+      </form>
+    </div>
+    <div class="header-right">
+      <button><mat-icon>grid_view</mat-icon></button>
+      <button><mat-icon>view_list</mat-icon></button>
+      <select class="native-select" [formControl]="selected1" title="Select Time Period">
+        <option value="recently">Recently Updated</option>
+        <option value="lastmonth">Last Month</option>
+        <option value="lastquarter">Last Quarter</option>
+        <option value="lastyear">Last Year</option>
+      </select>
+      <select class="native-select" [formControl]="selected2" title="Select Time Period">
+        <option value="excel">Excel</option>
+        <option value="pdf">Pdf</option>
+        <option value="print">Print</option>
+      </select>
+    </div>
+  </div>
+  <div class="users-body">
+    <app-user-card *ngFor="let user of pagedUsers()" [user]="user"></app-user-card>
+  </div>
+
+  <div class="users-footer">
+    <app-pagination
+      [currentPage]="currentPage()"
+      [totalPages]="totalPages()"
+      (pageChange)="onPageChange($event)">
+    </app-pagination>
+  </div>
+
+</div>
