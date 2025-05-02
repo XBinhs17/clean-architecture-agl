@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { UserRepository } from "../../domain/repositories/user-repository";
 import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
+import { map, Observable } from "rxjs";
 import { User } from "../../domain/models/user.model";
 
 
@@ -13,7 +13,18 @@ export class UserApiRepository implements UserRepository{
 
   constructor(private http: HttpClient) {}
 
-  getUsers(): Observable<User[]> {
-      return this.http.get<User[]>(this.apiUrl);
+  // getUsers(): Observable<User[]> {
+  //     return this.http.get<User[]>(this.apiUrl);
+  // }
+
+  //xử lý logic cho load more
+  getUsers(page: number, limit: number): Observable<User[]>{
+   return this.http.get<User[]>(this.apiUrl).pipe(
+    map(users =>{
+      const start = (page - 1) * limit;
+      const end = start + limit;
+      return users.slice(start, end);
+    })
+   )
   }
 }

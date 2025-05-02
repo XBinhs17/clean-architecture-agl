@@ -4,6 +4,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { NgFor, NgIf } from '@angular/common';
 import { AvatarComponent } from '../../shared/components/avatar/avatar.component';
 import { UsersContentComponent } from '../users-content/users-content.component';
+import { UsersContentNoComponent } from '../users-content-no-pa/users-content.component';
 
 @Component({
   selector: 'card-apps',
@@ -60,7 +61,9 @@ export class CardAppsComponent {
   tabComponentMapping = {
     // 'Targets': TargetContentComponen,
     // 'Budget': BudgetContentComponent,
-    'Users': UsersContentComponent
+    // 'Users': UsersContentComponent,
+    'Users': UsersContentNoComponent
+
   }
 
   constructor() { }

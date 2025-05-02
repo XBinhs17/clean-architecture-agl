@@ -1,0 +1,8 @@
+<div class="card-user">
+  <app-user-info [avatar]='user.avatar' [name]='user.name' [work]='user.work' [avatarSize]=80 />
+  <div class="user-more">
+    <app-stat-box [value]="user.earnings" label="Earnings"/>
+    <app-stat-box [value]="user.tasks" label="Tasks"/>
+    <app-stat-box [value]="user.sales" label="Sales"/>
+  </div>
+</div>

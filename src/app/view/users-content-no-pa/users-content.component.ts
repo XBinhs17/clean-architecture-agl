@@ -23,17 +23,15 @@ import { IUserService } from '../../application/services/user-service.interface'
     { provide: IUserService, useClass: UserService },
 
   ],
-
   imports: [
     MatIconModule,
     MatSelectModule,
     ReactiveFormsModule,
     MatGridListModule,
     UserCardComponent,
-    PaginationComponent,
   ],
 })
-export class UsersContentComponent  implements OnInit  {
+export class UsersContentNoComponent  implements OnInit  {
   selected1 = new FormControl('recently');
   selected2 = new FormControl('excel');
 
@@ -41,25 +39,13 @@ export class UsersContentComponent  implements OnInit  {
 
   users = this.userService.getUsersSignal();
 
-  currentPage = signal(1);
-  itemsPerPage = 9;
-  totalPages = computed(() => {
-    return Math.ceil(this.users().length / this.itemsPerPage);
-  });
-
   ngOnInit() {
     console.log('user:', this.users());
+    this.userService.loadMore();
   }
 
-  pagedUsers = computed(() => {
-    const allUsers = this.users();
-    const page = this.currentPage();
-    const start = (page - 1) * this.itemsPerPage;
-    const end = start + this.itemsPerPage;
-    return allUsers.slice(start, end);
-  });
-
-  onPageChange(page: number) {
-    this.currentPage.set(page);
+  loadMoreUsers() {
+    this.userService.loadMore();
   }
+
 }

@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, input, Input } from "@angular/core";
 import { AvatarComponent } from "../avatar/avatar.component";
 
 @Component({
@@ -10,8 +10,9 @@ import { AvatarComponent } from "../avatar/avatar.component";
   ]
 })
 export class UserInfoComponent{
-  @Input() avatar: string = '';
-  @Input() name: string ='';
-  @Input() work: string = '';
-  @Input() avatarSize: number = 25;
+  avatar= input<string>('');
+  name = input<string>('');
+  work = input<string>('');
+  avatarSize = input<number>(25);
+
 }
